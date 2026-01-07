@@ -1,16 +1,30 @@
 {
   "name": "my-api-verse",
   "version": "1.0.0",
+  "private": true,
   "description": "",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
+    "start": "node api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhiyangzhou2025/my-api-verse.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
+  "bugs": {
+    "url": "https://github.com/zhiyangzhou2025/my-api-verse/issues"
+  },
+  "homepage": "https://github.com/zhiyangzhou2025/my-api-verse#readme",
   "dependencies": {
-    "node-fetch": "^2.7.0"
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
